@@ -1,0 +1,270 @@
+@CHARSET "ISO-8859-1";
+
+body, h1, div, ul, li, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font: inherit;
+	border: 0;
+	font-size: 100%;
+}
+
+
+body {
+	background-color: black;
+}
+
+#main {
+	margin: 0px auto;
+	/*width: 960px;
+	height: 1000px;
+	padding-top: 10px;*/
+	background-color: #fff9df;
+}
+
+#header {
+	height: 170px;
+	width:100%;
+	background-image: url('img/banner.jpg');
+	/* background-color: white; */
+}
+
+#road {
+	height: 51px;
+	background-image: url('img/road.jpg');
+}
+
+#scroller {
+	height: 25px;
+	background-color: rgb(243, 223, 142);
+	border: 2px solid thick;
+	border-radius: 10px;
+	font-family: arial, sans-serif;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: red;
+}
+
+.ul-center-nav {
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+.ul-center-nav li {
+	display: inline;
+}
+
+.ul-center-nav a {
+	display: inline-block;
+	padding: 2px;
+}
+
+#footer {
+	clear: both;
+}
+
+p {
+	font-family: verdana, sans-serif;
+	font-size: 0.9em;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+#body-part {
+	/* height: 700px;
+	width: 720px;
+	 */
+	 width:75%;
+	 height:700px;
+	 float: left;
+	margin-right: 15px;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-left: 15px;
+	background-color: rgb(141,184,202);
+	/**
+	FOR BACKGROUND
+	*/
+	/*
+	
+	 background-image: url('img/back.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 80%;
+    opacity: 0.4;
+    filter:alpha(opacity=40); */
+	
+}
+
+
+div#body-part h1 {
+	font-size: 1.5em;
+	color: blue;
+	text-align: left;
+}
+
+.hide {
+	visibility: collapse;
+}
+
+.show {
+	visibility: visible;
+}
+
+table, td, th {
+	border: 1px solid green;
+}
+
+th {
+	background-color: green;
+	color: white;
+}
+
+#centermenu {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #011;
+	background: #ffe;
+	overflow: hidden;
+	position: relative;
+	 text-decoration: none;
+	 background-color: rgb(0,191,191);
+}
+
+#centermenu ul {
+	float: left;
+	clear: left;
+	position: relative;
+	list-style: none;
+	left: 30%;
+	display: block;
+	text-align: center;
+	font-size:25px; 
+	 text-decoration: none;
+}
+
+#centermenu ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 5px;
+	padding: 2px;
+	 text-decoration: none;
+}
+#overrideFont {
+	text-decoration: none;
+	font-family: 'Copperplate Gothic Light';
+	 font-variant: small-caps;
+	 color: white;
+}
+
+
+
+#left-nav {
+	width: 10%;
+	float: left;
+	/* height: 700px; */
+	padding: 10px;
+	margin: 0px;
+}
+
+.left-menu {
+	/* border: 2px solid;
+	border-radius: 10px;
+	 */
+	 text-align: center;
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;	
+	
+	/* /*padding: 10px 10px 20px 10px;	
+	background-color: rgb(243, 223, 142); */
+}
+
+ul.ul-left-menu {
+	list-style: none;
+	text-align: left;
+/* 	list-style-type: circle;
+ */	list-style-position: outside;
+	list-style-image: none;
+	margin-left: 30px;
+	margin-right: 30px;	
+}
+
+ul.ul-left-menu li {
+	padding: 5px 0px 5px;
+	font-size: 1.1em;
+	font-family: arial sans-serif;
+	font-weight: bold;
+}
+
+ul.ul-left-menu li A:link {
+	text-decoration: none;
+	color: black;
+}
+
+ul.ul-left-menu li A:visited {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+#right-nav {
+	width: 10%;
+	float: right;
+	/* height: 700px; */
+	padding: 0px;
+	margin: 0px;
+}
+
+.right-menu {
+	/* border: 2px solid;
+	border-radius: 10px;
+	 */
+	 text-align: center;
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 10%;
+	/* /*padding: 10px 10px 20px 10px;	
+	background-color: rgb(243, 223, 142); */
+}
+
+ul.ul-right-menu {
+	list-style: none;
+	text-align: left;
+/* 	list-style-type: circle;
+ */	list-style-position: outside;
+	list-style-image: none;
+	margin-left: 10px;
+	
+}
+
+ul.ul-right-menu li {
+	padding: 5px 0px;
+	font-size: 1.1em;
+	font-family: arial sans-serif;
+	font-weight: bold;
+}
+
+ul.ul-right-menu li A:link {
+	text-decoration: none;
+	color: black;
+}
+
+ul.ul-right-menu li A:visited {
+	text-decoration: none;
+	color: black;
+}
