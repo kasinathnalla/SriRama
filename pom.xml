@@ -6,7 +6,7 @@
 	<groupId>org.sai.gajwel</groupId>
 	<artifactId>SaiBaba</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>SaiBaba</name>
 	<description>Sai Baba website with Admin Details</description>
